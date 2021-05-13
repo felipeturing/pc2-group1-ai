@@ -4,12 +4,6 @@
 
 ## Objetivo
 
-## Instalación
-
-## Importaciones
-
-## Instrucciones para la manipulación de RDF
-
 ## Equipo
 1. Jesús Andrés Torrejón León
 2. Jordi Joel Bardales Rojas
