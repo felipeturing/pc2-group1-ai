@@ -17,11 +17,11 @@ SubNotebook1 - JORDI Y FELIPE
 AÑO   MES  DÍA    HORA
 2014  05   19    223836
 
-2. Eliminar fare_amount <= 0 (OK)
+2. Eliminar fare_amount < 2 (OK) (porque los menores que dos son ceros y negativos)
 3. Elimino aquellas que no pertenecen a una región determinada (New York) (OK)
 4. Eliminar latitud y longitud igual a cero (OK)
-5. 0<= número de pasajeros <= 8 (OK)
-6. Eliminar monto mayor a 200 (OK)
+5. 0<= número de pasajeros <= 8 (OK) (analizando la data, la distribución)
+6. Eliminar monto mayor a 200 (OK) (analizando la data)
 
 SubNotebook2 - JESÚS
 1. Formalizar la columna pickup_datetime (fecha, hora)
