@@ -1,6 +1,6 @@
 Notebook :
 
-LECTURA DE LOS DATOS PARA TRAINING, TEST (semilla aleatoria)
+LECTURA DE LOS DATOS PARA TRAINING, TEST (semilla aleatoria) - JULIO
     random_state = 7
 
 LIMPIEZA DE DATOS :
@@ -10,7 +10,7 @@ Observaciones
     - punto inicial = punto final : Da una vuelta
     - 0<= número de pasajeros <= 8
 
-SubNotebook1
+SubNotebook1 - JORDI
 1. Formalizar la columna pickup_datetime (fecha, hora)
 2. Eliminar fare_amount <= 0
 3. Elimino aquellas que no pertenecen a una región determinada (New York)
@@ -18,7 +18,7 @@ SubNotebook1
 5. 0<= número de pasajeros <= 8
 6. Eliminar monto mayor a 200
 
-SubNotebook2
+SubNotebook2 - JESÚS
 1. Formalizar la columna pickup_datetime (fecha, hora)
 2. Eliminar fare_amount < 0
 3. Cambiar latitud por longitud aquellas que estén en una región
@@ -27,7 +27,7 @@ reflejada(mirar imagen de Jesús) y el resto se elimina.
 5. 0<= número de pasajeros <= 8
 6. Eliminar monto mayor a 200
 
-SubNotebook3
+SubNotebook3 - FELIPE
 1. Formalizar la columna pickup_datetime (fecha, hora)
 2. Cambiar latitud por longitud aquellas que estén en una región
 reflejada(mirar imagen de Jesús) y el resto se marca como especial(agregar una col más para saber si pertenece o no a la región), para las características.
