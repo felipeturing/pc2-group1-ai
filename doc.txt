@@ -1,6 +1,6 @@
 Notebook :
 
-LECTURA DE LOS DATOS PARA TRAINING, TEST (semilla aleatoria) - JULIO
+LECTURA DE LOS DATOS PARA TRAINING, TEST (semilla aleatoria) (TODOS)
     random_state = 7
 
 LIMPIEZA DE DATOS :
@@ -10,13 +10,18 @@ Observaciones
     - punto inicial = punto final : Da una vuelta
     - 0<= número de pasajeros <= 8
 
-SubNotebook1 - JORDI
+SubNotebook1 - JORDI Y FELIPE
 1. Formalizar la columna pickup_datetime (fecha, hora)
-2. Eliminar fare_amount <= 0
-3. Elimino aquellas que no pertenecen a una región determinada (New York)
-4. Eliminar latitud y longitud igual a cero
-5. 0<= número de pasajeros <= 8
-6. Eliminar monto mayor a 200
+
+2014-05-19 22:38:36 UTC
+AÑO   MES  DÍA    HORA
+2014  05   19    223836
+
+2. Eliminar fare_amount <= 0 (OK)
+3. Elimino aquellas que no pertenecen a una región determinada (New York) (OK)
+4. Eliminar latitud y longitud igual a cero (OK)
+5. 0<= número de pasajeros <= 8 (OK)
+6. Eliminar monto mayor a 200 (OK)
 
 SubNotebook2 - JESÚS
 1. Formalizar la columna pickup_datetime (fecha, hora)
@@ -27,7 +32,7 @@ reflejada(mirar imagen de Jesús) y el resto se elimina.
 5. 0<= número de pasajeros <= 8
 6. Eliminar monto mayor a 200
 
-SubNotebook3 - FELIPE
+SubNotebook3 - JULIO
 1. Formalizar la columna pickup_datetime (fecha, hora)
 2. Cambiar latitud por longitud aquellas que estén en una región
 reflejada(mirar imagen de Jesús) y el resto se marca como especial(agregar una col más para saber si pertenece o no a la región), para las características.
@@ -39,7 +44,6 @@ INGENIERÍA DE CARACTERÍSTICAS
 1- Distancia entre los puntos (Haversine formula / Manhatan)
 2- Zonificar la región para determinar precios entre zonas
 3- Precio por metro (precio/distancia)
-4-
 
 ENTRENAMIENTO
 - HACEN TODOS
