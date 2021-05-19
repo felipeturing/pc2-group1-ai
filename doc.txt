@@ -11,17 +11,17 @@ Observaciones
     - 0<= número de pasajeros <= 8
 
 SubNotebook1 - JORDI Y FELIPE
-1. Formalizar la columna pickup_datetime (fecha, hora)
+1. Formalizar la columna pickup_datetime (fecha, hora)(OK)
 
-2014-05-19 22:38:36 UTC
-AÑO   MES  DÍA    HORA
-2014  05   19    223836
+                            2014-05-19 22:38:36 UTC
+                            
+                            AÑO   MES  DÍA  HORA
+                            2014  05   19    22
 
-2. Eliminar fare_amount < 2 (OK) (porque los menores que dos son ceros y negativos)
-3. Elimino aquellas que no pertenecen a una región determinada (New York) (OK)
-4. Eliminar latitud y longitud igual a cero (OK)
+2. 2 <= fare_amount <= 200 (OK) (porque los menores que dos son ceros y negativos y solo hay uno mayor de 200) (OK)
+3. Elimino aquellas que no pertenecen a una región determinada (New York)
+4. Eliminar latitud y longitud igual a cero
 5. 0<= número de pasajeros <= 8 (OK) (analizando la data, la distribución)
-6. Eliminar monto mayor a 200 (OK) (analizando la data)
 
 SubNotebook2 - JESÚS
 1. Formalizar la columna pickup_datetime (fecha, hora)
