@@ -12,10 +12,10 @@
 
 ## Cuadernos de revisión
 
--Red Neuronal de Capas Densas con 25M : [FullyConnectedNNTorch.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/FullyConnectedNNTorch.ipynb)
--GradientBoostingRegressor    con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
--Random Forest Regressor      con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
--Regresión Lineal             con 1M  : [Pruebas.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/Pruebas.ipynb)
+ - Red Neuronal de Capas Densas con 25M : [FullyConnectedNNTorch.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/FullyConnectedNNTorch.ipynb)
+ - GradientBoostingRegressor    con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
+ - Random Forest Regressor      con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
+ - Regresión Lineal             con 1M  : [Pruebas.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/Pruebas.ipynb)
 
 ## Objetivo
 
