@@ -24,7 +24,7 @@ predecir la tarifa que cobra un taxi de acuerdo a cierta información de entrada
 
 ## Resumen
 
-Se ha obtenido una muestra representativa de 25M de registros con PySpark (en algunas pruebas se logró trabajar con todos los datos), luego se desarrolló la **limpieza** con buen críterio (analizando con gráficos y consultas) determinando los dominios de validación de la cantidad de pasajeros, tarifa y región geográfica (este último inicialmente de forma general), para posteriormente limpiar aquellos registros fuera de los dominios. La implementación de la limpieza general se encuentra en el método **filter_data(.)**.
+Se ha obtenido una muestra representativa de 25M (en algunas pruebas se logró trabajar con todos los datos), luego se desarrolló la **limpieza** con buen críterio (analizando con gráficos y consultas) determinando los dominios de validación de la cantidad de pasajeros, tarifa y región geográfica (este último inicialmente de forma general), para posteriormente limpiar aquellos registros fuera de los dominios. La implementación de la limpieza general se encuentra en el método **filter_data(.)**.
 
 Con un análisis análogo al anterior se desarrolló la **transformación** de puntos de una región geográfica (no íncluida en la región validada) a la región validada, entendiendo que los registros fuera la región en realidad tenían las coordenadas intercambiadas. La implementación de esta transformación se encuentra en el método **swap_coordinates(.)**, luego como los datos ya se transformaron, se limpia los puntos fuera la región geográfica de New York (deducida de graficar los puntos en un mapa), en **filter_out_of_city(.)** .
 
