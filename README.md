@@ -14,10 +14,10 @@
 
 Los cuadernos se encuentran en la carpeta SubNotebook1
 
+ - **Limpieza, Transformación y Características** : [Pruebas.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/Pruebas.ipynb)
  - **GradientBoostingRegressor**    con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
 - **Random Forest Regressor**       con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
  - **Red Neuronal de Capas Densas** con 25M : [FullyConnectedNNTorch.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/FullyConnectedNNTorch.ipynb)
- - **Regresión Lineal**             con 1M  : [Pruebas.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/Pruebas.ipynb)
 
 ## Objetivo
 
@@ -44,7 +44,6 @@ Finalmente se ha *evaluado ciertos modelos* para determinar el que mejor se acom
  - **Red Neuronal de Capas Densas** con 25M : *RMSE* 3.5575 y *R2SCORE* 0.8335.
  - **GradientBoostingRegressor**    con 55M : *RMSE* 3.5441 y *R2SCORE* 0.8350.
  - **Random Forest Regressor**      con 55M : *RMSE* 3.8728 y *R2SCORE* 0.8030.
- - **Regresión Lineal**             con 1M  : *RMSE* 3.8077 y *R2SCORE* 0.8088.
 
 ## Interpretación de Resultados
 
