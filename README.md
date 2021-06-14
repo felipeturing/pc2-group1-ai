@@ -12,6 +12,8 @@
 
 ## Cuadernos de revisión
 
+Los cuadernos se encuentran en la carpeta SubNotebook1
+
  - **GradientBoostingRegressor**    con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
 - **Random Forest Regressor**       con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
  - **Red Neuronal de Capas Densas** con 25M : [FullyConnectedNNTorch.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/FullyConnectedNNTorch.ipynb)
