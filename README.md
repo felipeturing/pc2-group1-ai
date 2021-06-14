@@ -39,10 +39,10 @@ Finalmente se ha *evaluado ciertos modelos* para determinar el que mejor se acom
 
 # Resultados
 
- - **Red Neuronal de Capas Densas** con 25M : RMSE 3.5575 y R2SCORE 0.8335.
- - **GradientBoostingRegressor**    con 55M : RMSE 3.5441 y R2 0.8350.
- - **Random Forest Regressor**      con 55M : RMSE 3.8728 y R2 0.8030.
- - **Regresión Lineal**             con 1M  : RMSE 3.8077 y R2 0.8088.
+ - **Red Neuronal de Capas Densas** con 25M : *RMSE* 3.5575 y *R2SCORE* 0.8335.
+ - **GradientBoostingRegressor**    con 55M : *RMSE* 3.5441 y *R2SCORE* 0.8350.
+ - **Random Forest Regressor**      con 55M : *RMSE* 3.8728 y *R2SCORE* 0.8030.
+ - **Regresión Lineal**             con 1M  : *RMSE* 3.8077 y *R2SCORE* 0.8088.
 
 ## Interpretación de Resultados
 
