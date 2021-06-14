@@ -12,10 +12,10 @@
 
 ## Cuadernos de revisión
 
- - Red Neuronal de Capas Densas con 25M : [FullyConnectedNNTorch.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/FullyConnectedNNTorch.ipynb)
- - GradientBoostingRegressor    con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
- - Random Forest Regressor      con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
- - Regresión Lineal             con 1M  : [Pruebas.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/Pruebas.ipynb)
+ - **GradientBoostingRegressor**    con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
+- **Random Forest Regressor**       con 55M : [RFyGradBoost DatosCompletos.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/RFyGradBoost%20%20DatosCompletos.ipynb)
+ - **Red Neuronal de Capas Densas** con 25M : [FullyConnectedNNTorch.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/FullyConnectedNNTorch.ipynb)
+ - **Regresión Lineal**             con 1M  : [Pruebas.ipynb](https://github.com/felipeturing/pc2-team1-ai/blob/main/SubNotebook1/Pruebas.ipynb)
 
 ## Objetivo
 
@@ -24,9 +24,9 @@ predecir la tarifa que cobra un taxi de acuerdo a cierta información de entrada
 
 ## Resumen
 
-Se ha obtenido una muestra representativa de 25M de registros con PySpark (en algunas pruebas se logró trabajar con todos los datos), luego se desarrolló la **limpieza** con buen críterio (analizando con gráficos y consultas) determinando los dominios de validación de la cantidad de pasajeros, tarifa y región geográfica (este último inicialmente de forma general), para posteriormente limpiar aquellos registros fuera de los dominios. La implementación de la limpieza general se encuentra en el método filter_data(.).
+Se ha obtenido una muestra representativa de 25M de registros con PySpark (en algunas pruebas se logró trabajar con todos los datos), luego se desarrolló la **limpieza** con buen críterio (analizando con gráficos y consultas) determinando los dominios de validación de la cantidad de pasajeros, tarifa y región geográfica (este último inicialmente de forma general), para posteriormente limpiar aquellos registros fuera de los dominios. La implementación de la limpieza general se encuentra en el método **filter_data(.)**.
 
-Con un análisis análogo al anterior se desarrolló la **transformación** de puntos de una región geográfica (no íncluida en la región validada) a la región validada, entendiendo que los registros fuera la región en realidad tenían las coordenadas intercambiadas. La implementación de esta transformación se encuentra en el método swap_coordinates(.), luego como los datos ya se transformaron, se limpia los puntos fuera la región geográfica de New York (deducida de graficar los puntos en un mapa).
+Con un análisis análogo al anterior se desarrolló la **transformación** de puntos de una región geográfica (no íncluida en la región validada) a la región validada, entendiendo que los registros fuera la región en realidad tenían las coordenadas intercambiadas. La implementación de esta transformación se encuentra en el método **swap_coordinates(.)**, luego como los datos ya se transformaron, se limpia los puntos fuera la región geográfica de New York (deducida de graficar los puntos en un mapa), en **filter_out_of_city(.)** .
 
 Antes de desarrollar la **Ingeniería de Características**, se **explora** algún patrón que relacione la variabilidad de la tarifa con ciertas regiones de New York, encontrando que en los tres aeropuertos de New York, los cuales son John F. Kennedy Airport (JFK), LaGuardia (LGA) y Newark Airport (EWR), las tarifas son elevadas respecto al resto de regiones, luego verificando este resultado con las tarifas estandares de La Comisión de Taxis y Limusinas de la Ciudad de Nueva York (TLC), se comprueba que lo encontrado corresponde con la realidad, revisar https://www1.nyc.gov/site/tlc/passengers/taxi-fare.page, para el detalles de tarifas. Por lo tanto se considera la características *pickup_airport* y *dropoff_airport* para saber si el taxi sale o llega en algún aeropuerto.
 
@@ -39,10 +39,10 @@ Finalmente se ha *evaluado ciertos modelos* para determinar el que mejor se acom
 
 # Resultados
 
-    - **Red Neuronal de Capas Densas** con 25M : RMSE 3.5575 y R2SCORE 0.8335.
-    - **GradientBoostingRegressor**    con 55M : RMSE 3.5441 y R2 0.8350.
-    - **Random Forest Regressor**      con 55M : RMSE 3.8728 y R2 0.8030.
-    - **Regresión Lineal**             con 1M  : RMSE 3.8077 y R2 0.8088.
+ - **Red Neuronal de Capas Densas** con 25M : RMSE 3.5575 y R2SCORE 0.8335.
+ - **GradientBoostingRegressor**    con 55M : RMSE 3.5441 y R2 0.8350.
+ - **Random Forest Regressor**      con 55M : RMSE 3.8728 y R2 0.8030.
+ - **Regresión Lineal**             con 1M  : RMSE 3.8077 y R2 0.8088.
 
 ## Interpretación de Resultados
 
